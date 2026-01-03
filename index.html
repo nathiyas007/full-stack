@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Place</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <script src="/js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <button class="toggle-btn" onclick="toggleUserMenu()">
+          <i class="fa-solid fa-user"></i>
+        </button>
+        <div class="logo">
+          <a href="#">Market Place</a>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="Category_dropdown">
+          <button class="Categorybutton" onclick="toggleCategoryMenu()">
+            Category ▼
+          </button>
+          <div id="categoryMenu" class="dropdown-content">
+            <a href="#">Electronics</a>
+            <a href="#">Vehicles</a>
+            <a href="#">Furniture</a>
+            <a href="#">Fashion</a>
+            <a href="#">Property</a>
+          </div>
+        </div>
+
+        <a href="/pages/sell.html" class="sell-button">+ Sell</a>
+        <div class="cart"><i class="fa-solid fa-heart"></i></div>
+      </div>
+
+      <!--User Menu -->
+      <div id="userMenu" class="user-menu">
+        <p><a href="/pages/about.html">About</a></p>
+        <p><a href="/pages/userprofile.html">Profile Status</a></p>
+        <p><a href="#">Logout</a></p>
+      </div>
+    </header>
+    <section class="prd_section">
+      <div class="prd_box">
+        <!--product card -->
+        <div class="prd_card">
+          <img src="/assets/images/Portronics.webp" alt="Portronics" />
+          <div class="prd_details">
+            <h2>Portronics</h2>
+            <p class="price">$3000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="prd_card">
+          <img src="/assets/images/R15.jpg" alt="iPhone" />
+          <div class="prd_details">
+            <h2>iPhone</h2>
+            <p class="price">$23000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+        <div class="prd_card">
+          <img
+            src="/assets/images/Home centre helios bravo roxy queen.webp"
+            alt="Home centre helios bravo roxy queen bed"
+          />
+          <div class="prd_details">
+            <h2>Home centre helios bravo roxy queen</h2>
+            <p class="price">$23000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+        <div class="prd_card">
+          <img
+            src="/assets/images/preethi indicook induction cooktop.webp"
+            alt="Electronics"
+          />
+          <div class="prd_details">
+            <h2>preethi indicook induction cooktop</h2>
+            <p class="price">$23000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+        <div class="prd_card">
+          <img
+            src="/assets/images/Nikon D3500 Dsir camera.jpg"
+            alt="Electronics"
+          />
+          <div class="prd_details">
+            <h2>Nikon D3500 Dsir camera</h2>
+            <p class="price">$23000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+        <div class="prd_card">
+          <img src="/assets/images/Mahindra van.jpg" alt="Vehicles" />
+          <div class="prd_details">
+            <h2>Mahindra van</h2>
+            <p class="price">$23000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+        <div class="prd_card">
+          <img src="/assets/images/Two seater sofa.jpg" alt="Furniture" />
+          <div class="prd_details">
+            <h2>Two seater sofa</h2>
+            <p class="price">$23000</p>
+            <p class="location"></p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+        <div class="prd_card">
+          <img src="/assets/images/iphone.jpg" alt="Electronics" />
+          <div class="prd_details">
+            <h2>iPhone</h2>
+            <p class="price">$23000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+        <div class="prd_card">
+          <img src="/assets/images/toiloring machine.jpg" alt="Electronics" />
+          <div class="prd_details">
+            <h2>Toiloring machine</h2>
+            <p class="price">$23000</p>
+            <p class="location">Chennai</p>
+          </div>
+          <div class="prd_action">
+            <i class="fa-solid fa-heart"></i>
+            <a href="/pages/prd_view1.html">
+              <button>View product</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-box">
+          <h3>Market Place</h3>
+          <p>Buy and sell products easily near you.</p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Categories</h3>
+          <a href="#">Electronics</a>
+          <a href="#">Vehicles</a>
+          <a href="#">Furniture</a>
+          <a href="#">Fashion</a>
+        </div>
+
+        <div class="footer-box">
+          <h3>Help</h3>
+          <a href="#">FAQ</a>
+          <a href="#">Safety Tips</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-box">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2025 Market Place. All rights reserved.</div>
+    </footer>
+  </body>
+</html>

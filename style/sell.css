@@ -1,0 +1,55 @@
+.sell_box {
+    width: 450px;
+    margin: 40px auto;
+    background : white;
+    border: rgb(120, 120, 120) solid thin;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgb(193, 193, 193);
+    padding: 50px;
+    position: relative;
+}
+
+
+.sell_box h1 {
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(52, 52, 52);
+}
+
+.sell_box label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.sell_box input[type="text"],
+.sell_box input[type="number"],
+.sell_box input[type="location"],
+.sell_box select,
+.sell_box textarea,
+.sell_box input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.post_btn {
+    display: block;        
+    width: 150px;
+    margin: 30px auto 0;
+    background: #67fffa;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid;
+    color: black;
+    transition: all 0.3s ease; 
+}
+
+
+.post_btn:hover {
+    background: #c3fffd;
+}

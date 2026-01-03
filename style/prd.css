@@ -1,0 +1,39 @@
+.view-prd-box {
+  background: rgb(255, 255, 255);
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px black solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.view-prd-box img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.view-prd-box h2 {
+  margin: 15px;
+}
+
+.view-prd-box p {
+  margin: 10px 0;
+}
+
+.view-prd-box a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: #000000;
+  background:  #23e5db;
+  border: black solid 1px;
+  font-weight: bold;
+}
+
+.Seller {
+    color: blue;
+}
