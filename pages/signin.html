@@ -2,40 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login | Marketplace</title>
+  <title>Sign Up | Marketplace</title>
   <link rel="stylesheet" href="/style/login.css">
 </head>
 <body>
 
 <div class="container">
 
+  <!-- LEFT SIDE (Same as Login) -->
   <div class="left">
     <h1>MarketPlace</h1>
     <p class="tagline">Buy & Sell Easily in One Place</p>
 
     <ul>
       <li>✔ Easy Shopping</li>
-      <li>✔ Easy to sell</li>
-      <li>✔ Safe </li>
+      <li>✔ Secure Payments</li>
+      <li>✔ Fast Delivery</li>
     </ul>
   </div>
 
+  <!-- RIGHT SIDE (Signup Form) -->
   <div class="right">
     <div class="login-box">
-      <h2>Login</h2>
+      <h2>Create Account</h2>
 
-      <form action="/index.html">
+      <form>
+        <input type="text" placeholder="Full Name" required>
         <input type="email" placeholder="Email" required>
         <input type="password" placeholder="Password" required>
-        <button type="submit">Login</button>
+        <input type="password" placeholder="Confirm Password" required>
+
+        <button type="submit">Sign Up</button>
       </form>
+
       <p>
-        New user?
-        <a href="/pages/signin.html">Create an account</a>
+        Already have an account?
+        <a href="login.html">Sign In</a>
       </p>
     </div>
   </div>
 
 </div>
+
 </body>
 </html>

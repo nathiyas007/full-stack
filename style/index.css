@@ -296,29 +296,16 @@ header {
   font-size: 20px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .footer-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-@media (max-width: 480px) {
-  .footer-container {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
+.search-box input {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .prd_box {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .prd_box {
-    grid-template-columns: 1fr;
-  }
-}
